@@ -22,8 +22,8 @@ def get_rate(start, end):
         return response.status_code, "Помилка у виконанні запиту"
 
 # Визначення дат початку та кінця тижня
-start = datetime(2024, 9, 16)
-end = datetime(2024, 9, 22)
+start = datetime(2024, 12, 02)
+end = datetime(2024, 12, 08)
 # Виконання функції
 exchange_rate = get_rate(start, end)
 
